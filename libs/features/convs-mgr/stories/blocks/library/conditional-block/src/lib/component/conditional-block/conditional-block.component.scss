@@ -11,6 +11,7 @@ input[type='text'] {
   border-radius: 5px;
   resize: none;
   padding: 10px;
+  border-radius: 1rem;
 
   &:disabled {
     border: none;
@@ -19,8 +20,10 @@ input[type='text'] {
 
 .add-button {
   width: 100%;
-  background-color: var(--convs-mgr-color-primary-purple);
-  color: white;
+ // background-color: var(--convs-mgr-color-primary-purple);
+  color: black;
+  border-radius: 1rem;
+  background-color: azure;
 }
 
 .listgone {
@@ -51,6 +54,7 @@ input[type='text'] {
     display: flex;
     gap: 0.4rem;
     padding: 5px 0;
+    border-radius: 1rem;
 
     label {
       font-weight: 500;
